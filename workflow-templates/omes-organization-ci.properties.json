@@ -1,9 +1,9 @@
 {
     "name": "OMES Organization Workflow",
     "description": "OMES Organization CI starter workflow.",
-    "iconName": "example-icon",
+    "iconName": "octicon smiley",
     "categories": [
-        "Go"
+        "continuous-integration"
     ],
     "filePatterns": [
         "package.json$",
