@@ -6,10 +6,10 @@ This repository contains a collection of starter workflow templates located in t
 
 Here is a list of the available starter workflow templates:
 
-- **Template 1**: Description of the template.
-- **Template 2**: Description of the template.
-- **Template 3**: Description of the template.
-- ...
+- **DotNet application**: Starter template.
+- **Node JS application**: Starter template.
+- **MSBuild Application**: Starter template.
+- **JAVA Application**:  Starter template.
 
 ## Getting Started
 
