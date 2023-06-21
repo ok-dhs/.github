@@ -1,8 +1,6 @@
 ## Hi there 👋
 Welcome to the .github Repository!
 
-This repository serves as a special repository for your organization's profile on GitHub. The contents of this repository, including this README.md file, will be displayed on your public organization profile, making it visible to anyone visiting your profile.
-
 🙋‍♀️ The Office of Management and Enterprise Services is state government’s backbone. Agencies turn to us for the finance, property, human resources and technology services they need to succeed. We’re a trusted, credible partner providing the business expertise that makes Oklahoma government work.
 
 ### Contribution Guidelines
