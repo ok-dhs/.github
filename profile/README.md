@@ -14,22 +14,4 @@ We value the contribution and involvement of the community in our organization. 
 
 Please refer to our Contribution Guidelines for more details on how to contribute to our organization.
 
-### Useful Resources
-To learn more about our organization and get involved, here are some resources you might find helpful:
-
- Documentation: You can find our comprehensive documentation at docs.organization.com. It provides detailed information about our projects, APIs, and guidelines for contributors.
-
- Community Forums: Join our vibrant community forums at community.organization.com to connect with fellow members, ask questions, and engage in discussions related to our projects.
-
- Social Media: Follow us on Twitter, Facebook, and Instagram [@OklahomaOMES] to stay updated with the latest news, events, and releases.
-
-### Fun Facts
-Breakfast Ritual: Our team starts their day with a variety of breakfast options, ranging from classic cereal choices to exotic smoothie bowls. We believe a good breakfast fuels creativity!
-
-Trivia Nights: Every month, we organize fun trivia nights for our community members, where they can showcase their knowledge and win exciting prizes. It's a great way to connect and have some friendly competition!
-
-Team Outings: We believe in the importance of team bonding. Throughout the year, we organize team outings and adventures to foster a positive and collaborative work environment.
-
-We're excited to have you as part of our community! Feel free to explore our repositories, contribute to our projects, and connect with fellow members. Together, we can make a difference!
-
 
