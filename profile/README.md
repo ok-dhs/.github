@@ -14,4 +14,6 @@ We value the contribution and involvement of the community in our organization. 
 
 Please refer to our Contribution Guidelines for more details on how to contribute to our organization.
 
+Go here for information on [OMES repository standards](https://github.com/ok-omes/OMES.RepoStandards.git).
+
 
