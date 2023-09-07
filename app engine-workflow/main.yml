@@ -1,0 +1,60 @@
+# Github action for deploying to App Engine
+# secrets.GCP_CREDENTIALS is a Github Secret Variable that is store in the settings menu, the secret is automatically encrypted by GitHub
+
+# Requirement for deploying the App Engine
+# - Requirements.txt: Contain all the python packages used
+# - app.yaml: Defines Runtime environment
+# - app.yaml example (Python3)
+# -----------------------------
+#     runtime: python39
+#     handlers:
+#     - url: /static
+#       static_dir: static:
+#     - url: /.*
+#       static_dir: auto:
+# -----------------------------
+
+
+
+name: Backend CI-CD Test And Deploy To Staging
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ] 
+
+jobs:
+  test-and-deploy-to-staging:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install Python 3
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.8'
+    - name: Set Credential File
+      run: |
+        echo '${{ secrets.GCP_CREDENTIALS }}' > gcp_test_credentials.json
+      env:
+        GOOGLE_APPLICATION_CREDENTIALS: gcp_test_credentials.json
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Gcp Auth
+      uses: 'google-github-actions/auth@v1'
+      with: 
+        credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
+
+    - name: 'Set up Cloud SDK'
+      uses: 'google-github-actions/setup-gcloud@v1'
+      with:
+        version: '>= 363.0.0'
+
+    - name: 'Use gcloud To Deploy Staging'
+      run: 'gcloud app deploy --quiet'
+
