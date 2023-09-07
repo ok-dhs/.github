@@ -1,8 +1,8 @@
 # Github action for deploying to App Engine
 # secrets.GCP_CREDENTIALS is a Github Secret Variable that is store in the settings menu, the secret is automatically encrypted by GitHub
 
-# Requirement for deploying the App Engine
-# - Requirements.txt: Contain all the python packages used
+# Requirements for deploying to App Engine (GCP)
+# - Requirements.txt: Contains all the python packages used in solution
 # - app.yaml: Defines Runtime environment
 # - app.yaml example (Python3)
 # -----------------------------
